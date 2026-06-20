@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Stops the 4_to_infinity_and_beyond process
+# shellcheck disable=SC2046
 kill $(pgrep -f 4_to_infinity_and_beyond)
