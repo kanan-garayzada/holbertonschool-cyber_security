@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Stops 4_to_infinity_and_beyond without kill
+pkill -f 4_to_infinity_and_beyond
