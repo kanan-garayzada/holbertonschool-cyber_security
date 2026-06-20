@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Writes to /tmp/my_process forever
+
+while true
+do
+    echo "I am alive!" >> /tmp/my_process
+    sleep 2
+done
